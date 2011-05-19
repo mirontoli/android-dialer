@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialButton" parent="@android:style/Widget.ImageButton">
+    	<!-- This style def includes even android:onClick -->
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">80dip</item>
+        <item name="android:scaleType">centerInside</item>
+        <!-- 
+		<item name="android:layout_weight">1</item>
+		 -->
+        <item name="android:adjustViewBounds">true</item>
+        <!-- the transparent color finns redan i android package -->
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:layout_margin">5dip</item>
+		<item name="android:onClick">dialButtonClick</item>
+    </style>
+    <style name="DialPadTableRow">
+    	<!--  
+    	<item name="android:layout_marginBottom">3dip</item>
+    	-->
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:gravity">center</item>
+    </style>
+    <style name="CallerRegion">
+    	<item name="android:layout_marginBottom">5dip</item>
+    </style>
+    <style name="CallerButton">
+    	<item name="android:layout_width">45dip</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:adjustViewBounds">true</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:onClick">dialButtonClick</item>
+    </style>
+</resources>

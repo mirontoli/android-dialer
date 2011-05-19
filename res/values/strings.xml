@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- DialPadActivity -->
+    <string name="app_name">DialPad</string>
+	<string name="loading_sound_label">Laddar ljuden. Vänta...</string>
+	
+	<!-- menu in DialPadActivity -->
+	<string name="menu_download_title">Ladda ner</string>
+	<string name="menu_download_alphabetic_shortcut">l</string>	
+	<string name="menu_settings_title">Inställningar</string>
+	<string name="menu_settings_alphabetic_shortcut">i</string>
+	<string name="menu_call_log_title">Samtal</string>
+	<string name="menu_call_log_alphabetic_shortcut">s</string>
+	
+	<!-- SettingsActivity -->
+	<string name="settings_label">Inställningar</string>
+	<string name="settings_music_title">Bakgrundsmusik</string>
+	<string name="settings_music_summary">Spelar ljud när man trycker på knapparna</string>
+	<string name="settings_sound_title">Ljud</string>
+	<string name="settings_sound_summary">Välj ljud som spelas vid tryckning</string>
+	<string name="settings_sound_at_disabled">Ladda ner först från huvudfönstret</string>
+	
+	<!-- DownloadActivity -->
+	<string name="download_label">Ladda ner fler ljud</string>
+	<string name="download_new_songs_label">Laddar...</string>
+	<string name="decompressing">Packar upp</string>
+	<string name="download_only_audio_toast">Bara länkar till ljudfilerna är aktiverade!</string>
+	<string name="download_page_progress_message">Laddar sida... Vänta</string>
+	
+	<!-- CallLogActivity -->
+	<string name="call_log_label">Ringda nummer</string>
+	<string name="call_log_empty">Inga ringda nummer än</string>
+</resources>

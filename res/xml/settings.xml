@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference 
+		android:title="@string/settings_music_title" 
+		android:key="music" 
+		android:summary="@string/settings_music_summary" 
+		android:defaultValue="true"/>
+	<ListPreference 
+		android:title="@string/settings_sound_title"
+		android:summary="@string/settings_sound_summary"
+		android:key="dial_sound" />
+</PreferenceScreen>

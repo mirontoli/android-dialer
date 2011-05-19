@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="eu.chuvash.android.dialer"
+      android:versionCode="1"
+      android:versionName="1.0">     
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".DialPadActivity"
+                  android:label="@string/app_name" 
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".DownloadActivity"
+				  android:label="@string/download_label"/>
+	    <activity android:name=".SettingsActivity"
+	              android:label="@string/settings_label"/>
+	    <activity android:name=".CallLogActivity"
+	              android:label="@string/call_log_label"/>
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+    
+    <!-- permissions -->
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest> 

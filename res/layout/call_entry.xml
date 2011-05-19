@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="horizontal">
+  <TextView
+  	android:id="@+id/call_entry_phone"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:textSize="20sp" />
+  	<LinearLayout 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_alignParentRight="true"
+		android:paddingLeft="5sp">
+		  <TextView
+		  	android:id="@+id/call_entry_date"
+		  	android:layout_width="wrap_content"
+		  	android:layout_height="wrap_content"/>
+		  <TextView
+		  	android:id="@+id/call_entry_time"
+		  	android:layout_width="wrap_content"
+		  	android:layout_height="wrap_content"/>
+	</LinearLayout>
+</RelativeLayout>

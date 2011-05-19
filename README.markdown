@@ -1,0 +1,1 @@
+A project at MIUN 2010. This Android app provides a custom dialpad, the ability to call directly. The user can browse the call log and call again. The user can download additional sounds for buttons, like numbers in different languages, midi, morse and so on.

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+   >
+    <!--
+ 
+http://developer.android.com/reference/android/widget/ImageButton.html#attr_android:scaleType -->
+    <TableRow style="@style/DialPadTableRow">
+		<ImageButton android:id="@+id/dial_button1"
+		  android:src="@drawable/button1"
+		  style="@style/DialButton"/>
+ 		<ImageButton android:id="@+id/dial_button2"
+		  android:src="@drawable/button2"
+		  style="@style/DialButton"/>
+		<ImageButton android:id="@+id/dial_button3"
+		  android:src="@drawable/button3"
+		  style="@style/DialButton"/>
+    </TableRow>
+    <TableRow style="@style/DialPadTableRow">
+		<ImageButton android:id="@+id/dial_button4"
+		  android:src="@drawable/button4"
+		  style="@style/DialButton"/>
+ 		<ImageButton android:id="@+id/dial_button5"
+		  android:src="@drawable/button5"
+		  style="@style/DialButton"/>
+		<ImageButton android:id="@+id/dial_button6"
+		  android:src="@drawable/button6"
+		  style="@style/DialButton"/>
+    </TableRow>
+    <TableRow style="@style/DialPadTableRow">
+		<ImageButton android:id="@+id/dial_button7"
+		  android:src="@drawable/button7"
+		  style="@style/DialButton"/>
+ 		<ImageButton android:id="@+id/dial_button8"
+		  android:src="@drawable/button8"
+		  style="@style/DialButton"/>
+		<ImageButton android:id="@+id/dial_button9"
+		  android:src="@drawable/button9"
+		  style="@style/DialButton"/>
+    </TableRow>
+    <TableRow style="@style/DialPadTableRow">
+		<ImageButton android:id="@+id/dial_button_s"
+		  android:src="@drawable/buttons"
+		  style="@style/DialButton"/>
+ 		<ImageButton android:id="@+id/dial_button0"
+		  android:src="@drawable/button0"
+		  style="@style/DialButton"/>
+		<ImageButton android:id="@+id/dial_button_p"
+		  android:src="@drawable/buttonp"
+		  style="@style/DialButton"/>
+    </TableRow>        
+</TableLayout>
